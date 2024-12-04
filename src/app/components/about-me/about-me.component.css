@@ -1,0 +1,7 @@
+section-head {
+    font-family: 'Audiowide', sans-serif;
+    color: white; /* Ensure text color is white */
+    border: 2px solid white; /* Add white border around the text */
+    padding: 10px; /* Space between the text and border */
+    border-radius: 8px; /* Optional: makes border edges rounded */
+  }
