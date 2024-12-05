@@ -1,8 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); */
+
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+
+/* Global heading font */
+h1, h2 {
+  font-family: 'Audiowide', sans-serif;
+}
+
+/* Optional: Custom line separator */
+.about-section .explore span {
+  letter-spacing: 0.15em;
+}
+
 
   

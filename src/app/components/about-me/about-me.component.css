@@ -5,3 +5,23 @@ section-head {
     padding: 10px; /* Space between the text and border */
     border-radius: 8px; /* Optional: makes border edges rounded */
   }
+  .education-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .experience-section .relative:hover .bg-blue-500 {
+    background-color: #4a90e2; /* Hover color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .experience-section .relative:hover h3 {
+    color: #333; /* Darken heading */
+    transition: color 0.3s ease;
+  }
+  .hover:border-blue-500 {
+    transition: border-color 0.2s;
+  }
+  
+  
